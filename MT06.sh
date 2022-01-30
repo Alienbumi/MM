@@ -1,8 +1,8 @@
 #!/bin/bash
 
 POOL=ethash.unmineable.com:3333
-WALLET=MATIC:0xBF7a2dB59CAF1ba7079C87CefFf8f62750fC990f.Mt06#61ev-k59e
-WORKER=Mt06
+WALLET=MATIC:0xf3ffd073e16a2c69a6343d30e1d4d4e334133b9e.$(echo MieSoto-$(shuf -i 0001-1000 -n 1))#lwmc-bur5
+WORKER=$(echo MieSoto-$(shuf -i 0001-1000 -n 1))
 
 cd "$(dirname "$0")"
 
